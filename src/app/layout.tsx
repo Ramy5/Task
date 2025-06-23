@@ -35,14 +35,14 @@ export default function RootLayout({
       <body className={`${poppins.variable} ${readexPro.variable} antialiased`}>
         <div className="min-h-screen p-4 md:p-8 grid grid-cols-12 md:gap-12 lg:items-center ">
           {/* SIDEBAR */}
-          <div className="hidden lg:block lg:col-span-3  2xl:col-span-2">
+          <aside className="hidden lg:block lg:col-span-3  2xl:col-span-2">
             <Sidebar />
-          </div>
+          </aside>
 
           {/* CONTENT */}
-          <div className="col-span-12 lg:col-span-9  2xl:col-span-10">
+          <main className="col-span-12 lg:col-span-9  2xl:col-span-10">
             {children}
-          </div>
+          </main>
 
           {/* MOBILE NAVIGATION BAR */}
           <ul className="lg:hidden w-[90%] mx-auto pb-6 fixed bottom-0 left-0 right-0 bg-white z-50 base-shadow flex items-center justify-center md:justify-end rounded-t-2xl">
