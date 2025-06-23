@@ -24,7 +24,7 @@ const MobileNavigationBar = ({
   return (
     <li
       className={clsx(
-        "w-full relative rounded-bl-3xl sidebar-mobile-item rounded-br-3xl",
+        "w-full relative rounded-bl-3xl flex justify-center sidebar-mobile-item rounded-br-3xl",
         isActive ? "active" : ""
       )}
     >
@@ -32,7 +32,7 @@ const MobileNavigationBar = ({
       <Link
         href={path}
         className={clsx(
-          "flex items-center gap-4 pl-4  py-4",
+          "flex items-center gap-4 pl-4 pr-4 py-4",
           isActive ? "bg-primary rounded-bl-4xl rounded-br-4xl" : ""
         )}
       >

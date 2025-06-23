@@ -133,11 +133,11 @@ body {
 }
 
 .sidebar-mobile-item-before {
-  right: -24px;
+  right: -26px;
 }
 
 .sidebar-mobile-item-after {
-  left: -24px;
+  left: -26px;
 }
 
 .sidebar-mobile-item-before::before,
